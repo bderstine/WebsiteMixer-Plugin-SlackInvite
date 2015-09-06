@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+<div class="col-md-12">
+Use the following form to have a Slack invite emailed to you!<br/><br/>
+</div>
+
+{% if request.args.get('success') %}
+<div class="col-md-6">
+  <strong>It worked! An invite was sent to {{ request.args.get('email') }}!</strong>
+  <br/><br/>
+</div>
+<div style="clear:both;"></div>
+{% endif %}
+
+<div class="col-md-6">
+ <form role="form" method="post" action="">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+{% endblock %}

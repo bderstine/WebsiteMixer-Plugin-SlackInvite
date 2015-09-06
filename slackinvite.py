@@ -20,5 +20,5 @@ def slackinvite():
         return redirect('/slack-invite/?success=1&email='+email)
     else:
         s = getSettings()
-        return render_template('slackinvite/slackinvite.html',s=s)
+        return render_template('plugin-slackinvite/slackinvite.html',s=s)
 
