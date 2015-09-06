@@ -1,0 +1,25 @@
+{
+  "basics": {
+    "name": "Slack Invite",
+    "summary": "This plugin adds a page to auto sign-up for Slack.<br/>Visit <a href='/slack-invite/'>/slack-invite/</a> to use!",
+    "version": "1.0",
+    "directory": "slackinvite",
+    "website": "http://websitemixer.com",
+    "email": "brad@bizzartech.com",
+    "image": "http://websitemixer.com/static/upload/screenshot-blank.jpg",
+    "profiles": [{
+      "network": "Twitter",
+      "url": "https://twitter.com/bradderstine"
+    },{
+      "network": "Facebook",
+      "url": "https://facebook.com/bizzartech"
+    }]
+  },
+  "settings": {
+    "subdomain": "slackteam",
+    "token": "xoxp-XXXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX"
+  },
+  "import": {
+    "slackinvite": "slackinvite"
+  }
+}
