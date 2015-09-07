@@ -20,7 +20,7 @@
     "token": "xoxp-XXXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX"
   },
   "assets": {
-    "plugin-slackinvite": "plugin-slackinvite"
+    "templates": "plugin-slackinvite"
   },
   "import": {
     "slackinvite": "slackinvite"
