@@ -19,7 +19,7 @@
     "subdomain": "slackteam",
     "token": "xoxp-XXXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX"
   },
-  "templates": {
+  "assets": {
     "plugin-slackinvite": "plugin-slackinvite"
   },
   "import": {
