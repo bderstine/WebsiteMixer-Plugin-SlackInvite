@@ -1,7 +1,10 @@
 import urllib, urllib2
 from flask import Flask, Response, session, request, url_for, redirect, render_template, abort, g, send_from_directory
-from application import app
-from application.functions import *
+
+from websitemixer import app
+from websitemixer.models import *
+from websitemixer.functions import *
+
 
 @app.route('/slack-invite/',methods=['GET','POST'])
 def slackinvite():
